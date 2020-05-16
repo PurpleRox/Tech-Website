@@ -15,16 +15,37 @@ footer {
   color: white;
 }
 
+
+
 ul {
   margin: 0px;
   padding: 0px;
 }
 
+header li{
+  display: inline;
+}
+
+header h1, nav{
+  display: inline-block;
+}
+
+main{
+  width: 680px;
+  display: inline-block;
+}
+
+aside {
+  width: 270px;
+  display: inline-block;
+  vertical-align: top;
+}
 .product {
   border: 1px solid gray;
   width: 200px;
   margin: 5px;
   padding: 5px;
+  display: inline-block;
 }
 
 img {
