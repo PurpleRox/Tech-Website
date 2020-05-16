@@ -13,3 +13,19 @@ header, footer{
     background: #333a40;
     color: white;
 }
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.product{
+    border: 1px solid gray;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+
+img{
+    max-width: 100%;
+}
