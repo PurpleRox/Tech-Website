@@ -15,22 +15,21 @@ footer {
   color: white;
 }
 
-
-
 ul {
   margin: 0px;
   padding: 0px;
 }
 
-header li{
+header li {
   display: inline;
 }
 
-header h1, nav{
+header h1,
+nav {
   display: inline-block;
 }
 
-main{
+main {
   width: 680px;
   display: inline-block;
 }
@@ -50,4 +49,9 @@ aside {
 
 img {
   max-width: 100%;
+}
+
+.button {
+  padding: 10px;
+  display: inline-block;
 }
