@@ -20,6 +20,10 @@ ul {
   padding: 0px;
 }
 
+li{
+  list-style: none;
+}
+
 header li {
   display: inline;
 }
@@ -32,14 +36,17 @@ nav {
 main {
   width: 680px;
   display: inline-block;
+  padding: 10px;
 }
 
 aside {
   width: 270px;
   display: inline-block;
   vertical-align: top;
+  padding: 10px;
 }
 .product {
+  box-sizing: border-box;
   border: 1px solid gray;
   width: 200px;
   margin: 5px;
