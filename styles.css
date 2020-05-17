@@ -17,6 +17,14 @@ footer {
   padding: 20px 10px;
 }
 
+header{
+  border-radius: 25px 25px 0 0 ;
+}
+
+footer{
+  border-radius: 0 0 25px 25px ;
+}
+
 ul {
   margin: 0px;
   padding: 0px;
