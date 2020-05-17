@@ -21,16 +21,16 @@ ul {
   padding: 0px;
 }
 
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-a:hover{
+a:hover {
   color: #0e69e9;
 }
 
@@ -73,17 +73,40 @@ img {
   display: inline-block;
 }
 
-.button:last-of-type{
+.button:last-of-type {
   background-color: #0e69e9;
   color: white;
 }
 
 /*Product detail page */
-.product-detail{
+.product-detail {
   width: 660px;
 }
 
-.product-detail img{
+.product-detail img {
   max-width: 50%;
   float: left;
+}
+
+/* contact us page*/
+
+form {
+  padding: 10px;
+  margin: 10px 0;
+  width: 600px;
+}
+
+form > div {
+  margin: 10px 0;
+}
+
+.inline label {
+  display: inline-block;
+  width: 100px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  width: 400px;
 }
