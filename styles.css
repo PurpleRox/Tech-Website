@@ -5,9 +5,10 @@ html {
 body {
   font-family: "Barlow", sans-serif;
   background: white;
-  max-width: 1000px;
+  /*max-width: 80vw;*/
   margin: 0 auto;
   color: rgb(49, 46, 46);
+  text-align: center;
 }
 
 header,
@@ -17,12 +18,16 @@ footer {
   padding: 20px 10px;
 }
 
-header{
-  border-radius: 25px 25px 0 0 ;
+input[type="search"] {
+  width: 100%;
 }
 
-footer{
-  border-radius: 0 0 25px 25px ;
+header {
+  border-radius: 25px 25px 0 0;
+}
+
+footer {
+  border-radius: 0 0 25px 25px;
 }
 
 ul {
@@ -52,29 +57,31 @@ nav {
   display: inline-block;
 }
 
-header h1{
-  width: 65%;
+header h1 {
+  /* width: 65%; */
+  width: 100%;
 }
 
-main {
-  width: 680px;
+/* main {
+  width: 68%;
   display: inline-block;
   padding: 10px;
 }
 
 aside {
-  width: 270px;
+  width: 27%;
   display: inline-block;
   vertical-align: top;
   padding: 10px;
-}
+} */
 .product {
   box-sizing: border-box;
   border: 1px solid gray;
-  width: 200px;
+  /* width: 30%; */
   margin: 5px;
   padding: 5px;
-  display: inline-block;
+  /* display: inline-block; */
+  width: 100%;
   text-align: center;
 }
 
@@ -126,23 +133,31 @@ textarea {
 }
 
 /*Table*/
-table{
+table {
   width: 400px;
   text-align: left;
   margin: 20px 0;
 }
 
-caption{
+caption {
   font-weight: bold;
   font-style: italic;
   border-bottom: 1px dotted;
   padding: 10px;
 }
 
-th, td{
+th,
+td {
   padding: 10px;
 }
 
-tr:hover{
+tr:hover {
   background: f5f5f5;
+}
+
+@media (min-width: 800px) {
+  input[type="search"] {
+    width: 40%;
+    margin-left: 2em;
+  }
 }
