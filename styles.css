@@ -62,18 +62,7 @@ header h1 {
   width: 100%;
 }
 
-/* main {
-  width: 68%;
-  display: inline-block;
-  padding: 10px;
-}
 
-aside {
-  width: 27%;
-  display: inline-block;
-  vertical-align: top;
-  padding: 10px;
-} */
 .product {
   box-sizing: border-box;
   border: 1px solid gray;
@@ -159,5 +148,25 @@ tr:hover {
   input[type="search"] {
     width: 40%;
     margin-left: 2em;
+  }
+
+  .product{
+    display: inline-block;
+    width: 48%;
+
+  }
+}
+
+@media (min-width: "1000px"){
+  main {
+    width: 68%;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  aside {
+    width: 27%;
+    vertical-align: top;
+    padding: 10px;
   }
 }
